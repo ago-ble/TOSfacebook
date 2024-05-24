@@ -1,4 +1,4 @@
-# Paslagų teikimo sąlygų pateikimas, papildytas vizualizacijomis
+# Paslagų teikimo sąlygų pateikimas, taikant informacijos vizualizavimo principus
 
 Čia yra įgyvendintas facebook.com programėlės paslaugų teikimo sąlygų vaizdavimas taikant informacijos vizualizavimo principus. Prototipas vaizduoja paskyros kūrimo metu rodomas paslaugų teikimo sąlygas. Paskyos kūrimo eiga pakeista taip, kad pirma yra rodomos sąlygos, o ne prašoma įvesti asmeninius duomenis, kaip šiuo metu yra egzistuojančioje sistemoje. Aplikacija yra skirta mobiliesiams įrenginiams.
 
