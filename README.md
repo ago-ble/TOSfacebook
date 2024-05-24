@@ -4,7 +4,7 @@
 
 ## Paleidimas
 
-Norint paleisti programą reikia turėti instaliavus [node.js](https://nodejs.org/en/download/package-manager) v20.13.1 (LTS). 
+Norint paleisti programą reikia turėti instaliuotą [node.js](https://nodejs.org/en/download/package-manager) v20.13.1 (LTS). 
 
 1. Instaliuokite reikiamas bibliotekas
 
