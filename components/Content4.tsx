@@ -1,15 +1,6 @@
 import React, { Component } from "react";
-import {
-  Switch,
-  ScrollView,
-  StyleSheet,
-  Text,
-  View,
-  TouchableOpacity,
-} from "react-native";
-import Constants from "expo-constants";
+import {StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import * as Animatable from "react-native-animatable";
-import Collapsible from "react-native-collapsible";
 import Accordion from "react-native-collapsible/Accordion";
 import Icon from "react-native-vector-icons/FontAwesome";
 import { Content41 } from "./Content41";
@@ -126,7 +117,7 @@ const styles = StyleSheet.create({
   },
   container: {
     backgroundColor: "#F5FCFF",
-    paddingLeft: 0, // Ensure there's no padding on the left
+    paddingLeft: 0,
     paddingRight: 0,
   },
   title: {

@@ -23,7 +23,6 @@ export function Content33 () {
               source={require('@/assets/images/C33/security.svg')}
               style={styles.card1}
               contentFit="contain"
-              transition={1000}
             />
         </View>
       </View>

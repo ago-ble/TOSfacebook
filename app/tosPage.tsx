@@ -95,7 +95,7 @@ export default class tryPage extends Component {
       <View style={styles.container}>
         <View paddingH-16>
           <Text style={styles.textBold}>
-            Sutikite su ,,Facebook” sąlygomis ir politika
+            Sutikite su „Facebook” sąlygomis ir politika
           </Text>
 
           <View>

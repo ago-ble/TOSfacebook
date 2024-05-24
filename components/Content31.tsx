@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import { View, TextField, Text, Button, Typography, Colors } from 'react-native-ui-lib';
+import { View, Text } from 'react-native-ui-lib';
 import { Image } from 'expo-image';
 
 export function Content31() {
@@ -13,7 +13,6 @@ export function Content31() {
               source={require('@/assets/images/C31/privalote.svg')}
               style={styles.card}
               contentFit="contain"
-              transition={1000}
             />
           </View>
         </View>      
@@ -25,7 +24,6 @@ export function Content31() {
               source={require('@/assets/images/C31/draudziama.svg')}
               style={styles.card}
               contentFit="contain"
-              transition={1000}
             />
           </View>
         </View>

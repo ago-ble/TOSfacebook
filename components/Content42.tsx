@@ -1,13 +1,6 @@
 import React from "react";
 import { StyleSheet } from "react-native";
-import {
-  View,
-  TextField,
-  Text,
-  Button,
-  Typography,
-  Colors,
-} from "react-native-ui-lib";
+import { View, Text } from "react-native-ui-lib";
 import { Image } from "expo-image";
 import AccDeletionList from "./AccDeletionList";
 
@@ -47,7 +40,6 @@ export function Content42() {
           source={require("@/assets/images/C4/delete-acc.svg")}
           style={styles.card1}
           contentFit="contain"
-          transition={1000}
         />
       </View>
 
