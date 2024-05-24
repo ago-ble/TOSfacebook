@@ -1,77 +1,24 @@
-# Welcome to your Expo app 👋
+# Paslagų teikimo sąlygų pateikimas, papildytas vizualizacijomis
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Čia yra įgyvendintas facebook.com programėlės paslaugų teikimo sąlygų vaizdavimas taikant informacijos vizualizavimo principus. Prototipas vaizduoja paskyros kūrimo metu rodomas paslaugų teikimo sąlygas. Paskyos kūrimo eiga pakeista taip, kad pirma yra rodomos sąlygos, o ne prašoma įvesti asmeninius duomenis, kaip šiuo metu yra egzistuojančioje sistemoje. Aplikacija yra skirta mobiliesiams įrenginiams.
 
-## Get started
+## Paleidimas
 
-1. Install dependencies
+1. Instaliuokite reikiamas bibliotekas
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. Paleiskite aplikaciją
 
    ```bash
     npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+Paleistą aplikaciją galite peržiūrėti keliais būdais: 
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-
-
-
-
-## Used librarys and how to install them
-
-react-native-vector-icons
-```bash
-npm install --save react-native-vector-icons
-```
-
-RNUILIB
-```bash
-npm install react-native-ui-lib
-```
-for dependancies: 
-```bash
-npm i react-native-reanimated react-native-gesture-handler
-```
-```bash
-$ npm install react-native-animatable --save
-```
-```bash
-npm install --save react-native-collapsible
-```
-
-
+- [Android emuliatoriuje](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS emuliatoriuje](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go programėlėje](https://expo.dev/go). Iš Play store arba App store atsisiųskite Expo Go programėlę, skenuokite QR kodą ir išbandykite.
+- Naršyklėje. Terminale paspaudę „w“ raidę klaviatūroje. Atidarius "devTools“ arba "Inspect" pasirinkti mobiliojo įrenginio dimencijas. 

@@ -1,4 +1,3 @@
-//import { Text, View, Button,  StyleSheet  } from "react-native";
 import { StyleSheet } from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import {
@@ -9,12 +8,11 @@ import {
   Typography,
   Colors,
 } from "react-native-ui-lib";
-import React, { Component } from "react";
+import React from "react";
 import { Image } from "expo-image";
 
 Colors.loadColors({
-  fbBlue: "#0062DD",
-  gold: "#FFD700",
+  fbBlue: "#0062DD"
 });
 
 Typography.loadTypographies({
@@ -63,9 +61,6 @@ export default function Index() {
           white
           background-fbBlue
           label="Prisijungti"
-          onPress={() => {
-            router.navigate({ pathname: "TosFbBandymasSuReddd" });
-          }}
         />
       </View>
 

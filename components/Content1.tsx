@@ -55,11 +55,11 @@ const styles = StyleSheet.create({
   },
   container2: {
     flexDirection: 'row',
-    justifyContent: 'space-between', // Distribute space between items
-    alignItems: 'flex-start',            // Align items vertically centered
+    justifyContent: 'space-between', 
+    alignItems: 'flex-start',          
   },
   textContainer: {
-    flexShrink: 1,                   // Allow text container to shrink if needed
+    flexShrink: 1,
   },
   textNormal: {
     fontSize: 16,

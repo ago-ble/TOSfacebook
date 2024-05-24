@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
-import { View, TextField, Text, Button, Typography, Colors } from 'react-native-ui-lib';
+import { View, Text } from 'react-native-ui-lib';
 import { Image } from 'expo-image';
 
 export function Content32() {
@@ -20,7 +20,6 @@ export function Content32() {
               source={require('@/assets/images/C32/not-allowed-in-meta.svg')}
               style={styles.card1}
               contentFit="contain"
-              transition={1000}
             />
         </View>
         <View center>
@@ -28,7 +27,6 @@ export function Content32() {
               source={require('@/assets/images/C32/fb-delete-acc.svg')}
               style={styles.card2}
               contentFit="contain"
-              transition={1000}
             />
         </View>
       </View>

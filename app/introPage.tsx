@@ -1,16 +1,13 @@
-//import { Text, View, Button,  StyleSheet  } from "react-native";
 import {StyleSheet  } from "react-native";
-import {Link, Stack,  useLocalSearchParams, useRouter } from "expo-router";
-import {View, TextField, Text, Button} from 'react-native-ui-lib';
-import React, {Component} from 'react';
-import {Typography, Colors, Spacings} from 'react-native-ui-lib';
+import {useLocalSearchParams, useRouter } from "expo-router";
+import {View, Text, Button} from 'react-native-ui-lib';
+import React from 'react';
+import {Typography, Colors } from 'react-native-ui-lib';
 import { Image } from 'expo-image';
 
 
 Colors.loadColors({
-  fbBlue: '#0062DD',
-  gold: '#FFD700',
-  grey: '#BDC9CE',
+  fbBlue: '#0062DD'
 });
 
 Typography.loadTypographies({

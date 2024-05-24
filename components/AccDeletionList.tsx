@@ -13,7 +13,7 @@ const DATA = [
   'Spustelėkite Tęsti ir vykdykite nurodymus, kad patvirtintumėte.',
 ];
 
-const Item = ({ index, title }) => (
+const Item = ({ index, title }: { index: number, title: string }) => (
   <View style={styles.item}>
     <Text style={styles.itemNumber}>{index + 1}. </Text>
     <Text style={styles.itemText}>{title}</Text>
@@ -38,14 +38,14 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start',
   },
   itemNumber: {
-    width: 25, // Adjust width for number
+    width: 25, 
     textAlign: 'center',
     fontSize: 16,
   },
   itemText: {
     flex: 1,
     flexWrap: 'wrap',   
-    marginLeft: 5, // Space between number and text
+    marginLeft: 5,
     textAlign: 'left',
     fontSize: 16,
   },
